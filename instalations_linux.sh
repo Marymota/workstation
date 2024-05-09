@@ -81,7 +81,7 @@ install_git() {
 		echo "Git is already installed\n"
 	else
 		sudo apt update
-		sudo apt install -y git
+		sudo apt-get install git
 		echo "Git installation completed successfully\n"
 	fi
 }
